@@ -1,0 +1,28 @@
+.left{
+    left: 25px;
+    position:fixed;
+    /* color: springgreen; */
+    }
+.navbar{
+        display: inline-block;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        overflow: hidden;
+    }
+.navbar li{
+        display: inline-block;
+        /* color: springgreen; */
+    }
+.navbar li a{
+        font-size: 30px;
+        padding: 5px;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+        color: coral;
+    }
+.navbar li a:hover, .navbar li a:active{
+    color: grey;
+    text-decoration:none;
+    }
